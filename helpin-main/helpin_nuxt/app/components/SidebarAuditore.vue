@@ -28,15 +28,24 @@
           </button>
         </div>
 
-        <div class="px-8 mb-8 shrink-0">
-          <div class="flex items-center gap-2 mb-1">
-            <div class="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse"></div>
-            <p class="text-green-300 text-[10px] font-bold tracking-wider uppercase">Pengguna Aktif</p>
+        <div class="mb-6 shrink-0 -mt-4 relative z-10">
+          <div class="px-6 md:px-8 py-5 bg-gradient-to-r from-[#0F8901] to-[#042400] shadow-md border-y border-white/5 relative overflow-hidden group">
+            
+            <div class="absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
+            
+            <div class="relative z-10">
+              <div class="flex items-center gap-2 mb-2">
+                <div class="w-2 h-2 rounded-full bg-blue-500 animate-pulse shadow-[0_0_8px_rgba(59,130,246,0.8)]"></div>
+                <span class="text-[10px] font-semibold text-gray-300 uppercase tracking-widest">Pengguna Aktif</span>
+              </div>
+              
+              <h2 class="text-xl font-bold mb-3 text-white truncate">Auditor Suki</h2>
+              
+              <span class="inline-block px-3 py-1 text-[10px] font-black bg-green-500 text-white rounded uppercase tracking-wider shadow-sm">
+                Auditor
+              </span>
+            </div>
           </div>
-          <h2 class="text-white text-lg font-bold mb-2">Auditor Suki</h2>
-          <span class="bg-white/10 text-white text-[10px] px-3 py-1 rounded border border-white/20 uppercase font-bold tracking-wider backdrop-blur-sm">
-            Auditor
-          </span>
         </div>
 
         <nav 

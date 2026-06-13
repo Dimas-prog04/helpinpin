@@ -9,7 +9,7 @@
       ]"
     >
       
-      <div class="pt-8 overflow-y-auto no-scrollbar flex-1 flex flex-col">
+    
         <div class="flex items-center justify-center h-20 border-b border-white/10 mt-4 mb-2 shrink-0">
           <img 
             src="/assets/helpin_light_logo1.png" 
@@ -18,15 +18,24 @@
           />
         </div>
 
-        <div class="px-8 mb-8 shrink-0">
-          <p class="text-[10px] text-white/60 flex items-center gap-2 mb-1">
-            <span class="w-2 h-2 rounded-full bg-[#10B981] animate-pulse"></span> PENGGUNA AKTIF
-          </p>
-          <h2 class="text-xl font-bold text-white mb-2">Karyawan Suki</h2>
-          <span class="inline-block px-3 py-1 bg-[#166534] text-white text-[10px] font-bold rounded tracking-widest">
-            KARYAWAN
-          </span>
-        </div>
+         <div class="mb-6 shrink-0 -mt-4 relative z-10">
+          <div class="px-6 md:px-8 py-5 bg-gradient-to-r from-[#0F8901] to-[#042400] shadow-md border-y border-white/5 relative overflow-hidden group">
+            
+            <div class="absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
+            
+            <div class="relative z-10">
+              <div class="flex items-center gap-2 mb-2">
+                <div class="w-2 h-2 rounded-full bg-blue-500 animate-pulse shadow-[0_0_8px_rgba(59,130,246,0.8)]"></div>
+                <span class="text-[10px] font-semibold text-gray-300 uppercase tracking-widest">Pengguna Aktif</span>
+              </div>
+              
+              <h2 class="text-xl font-bold mb-3 text-white truncate">Karyawan Suki</h2>
+              
+              <span class="inline-block px-3 py-1 text-[10px] font-black bg-green-500 text-white rounded uppercase tracking-wider shadow-sm">
+               Karyawan
+              </span>
+            </div>
+          </div>
 
         <nav class="flex flex-col pl-5 space-y-1 flex-1">
           <NuxtLink 

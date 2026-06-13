@@ -14,7 +14,7 @@
     >
       <div class="flex flex-col h-full overflow-hidden">
         
-        <div class="px-6 md:px-8 py-8 flex justify-between items-center shrink-0">
+        <div class="px-6 md:px-4 py-2 flex justify-between items-center shrink-0">
           <div class="flex items-center justify-center h-20 border-b border-white/10 mt-4 mb-2 w-full">
             <img 
               src="/assets/helpin_light_logo1.png" 
@@ -27,15 +27,24 @@
           </button>
         </div>
 
-        <div class="px-6 md:px-8 mb-6 pb-6 border-b border-white/10 shrink-0">
-          <div class="flex items-center gap-2 mb-2">
-            <div class="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></div>
-            <span class="text-[10px] font-semibold text-gray-300 uppercase tracking-widest">Pengguna Aktif</span>
+       <div class="mb-6 shrink-0 -mt-4 relative z-10">
+          <div class="px-6 md:px-8 py-5 bg-gradient-to-r from-[#0F8901] to-[#042400] shadow-md border-y border-white/5 relative overflow-hidden group">
+            
+            <div class="absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
+            
+            <div class="relative z-10">
+              <div class="flex items-center gap-2 mb-2">
+                <div class="w-2 h-2 rounded-full bg-blue-500 animate-pulse shadow-[0_0_8px_rgba(59,130,246,0.8)]"></div>
+                <span class="text-[10px] font-semibold text-gray-300 uppercase tracking-widest">Pengguna Aktif</span>
+              </div>
+              
+              <h2 class="text-xl font-bold mb-3 text-white truncate">Admin Suki SUPER</h2>
+              
+              <span class="inline-block px-3 py-1 text-[10px] font-black bg-green-500 text-white rounded uppercase tracking-wider shadow-sm">
+                Admin
+              </span>
+            </div>
           </div>
-          <h2 class="text-xl font-bold mb-2 text-white">Admin Suki SUPER</h2>
-          <span class="inline-block px-3 py-1 text-[10px] font-bold bg-green-500 text-white rounded uppercase tracking-wider">
-            Admin
-          </span>
         </div>
 
         <nav class="flex-1 overflow-y-auto no-scrollbar pl-4 space-y-1 mb-4">
