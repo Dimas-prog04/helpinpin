@@ -270,9 +270,11 @@ onUnmounted(() => {
     </header>
 
     <section id="beranda" class="relative min-h-[90vh] flex items-center overflow-hidden pt-28 pb-20 bg-[#1c4532]">
-      <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover z-0 pointer-events-none">
-        <source src="/vd_bg.mp4" type="video/mp4" />
-      </video>
+     <img 
+  src="/vd_bg.gif" 
+  alt="Background Animasi" 
+  class="absolute inset-0 w-full h-full object-cover z-0 pointer-events-none" 
+/>
       
       <div class="container mx-auto max-w-7xl px-6 lg:px-10 xl:px-11 grid lg:grid-cols-11 gap-12 items-center relative z-10">
         <div class="flex flex-col items-start text-left lg:col-span-6 xl:col-span-6 mt-10 lg:mt-0">
