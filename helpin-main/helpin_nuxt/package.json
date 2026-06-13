@@ -1,0 +1,28 @@
+{
+  "name": "helpin_nuxt",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/icon": "^2.2.3",
+    "@vueuse/motion": "^3.0.3",
+    "chart.js": "^4.5.1",
+    "leaflet": "^1.9.4",
+    "lucide-vue-next": "^1.0.0",
+    "nuxt": "^4.4.7",
+    "unstorage": "^1.17.5",
+    "vue": "^3.5.35",
+    "vue-chartjs": "^5.3.3",
+    "vue-router": "^5.1.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@types/leaflet": "^1.9.21"
+  }
+}
